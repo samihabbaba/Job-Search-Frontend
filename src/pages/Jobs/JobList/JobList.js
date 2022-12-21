@@ -12,7 +12,7 @@ const JobList = (props) => {
     return (
         <React.Fragment>
             <MetaTags>
-            <title>Job List | Jobcy - Job Listing Template | Themesdesign</title>
+            <title>Job List | CareerHub - Job Listing Template | Themesdesign</title>
             </MetaTags>
             <Section/>
             <section className="section">

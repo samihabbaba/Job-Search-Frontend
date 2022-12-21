@@ -8,7 +8,7 @@ const CompanyList = () => {
     return (
         <React.Fragment>
             <MetaTags>
-            <title>Company List | Jobcy - Job Listing Template | Themesdesign</title>
+            <title>Company List | CareerHub - Job Listing Template | Themesdesign</title>
             </MetaTags>
             <Section/>
             <section className="section">

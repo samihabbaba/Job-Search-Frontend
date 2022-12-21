@@ -15,7 +15,7 @@ const SignOut = () => {
                 <div className="main-content">
                     <div className="page-content">  
                     <MetaTags>
-                        <title>Sign Out | Jobcy - Job Listing Template | Themesdesign</title>
+                        <title>Sign Out | CareerHub - Job Listing Template | Themesdesign</title>
                     </MetaTags>        
                     <section className="bg-auth">
                         <Container>
@@ -39,7 +39,7 @@ const SignOut = () => {
                                                     <div className="w-100">
                                                         <div className="text-center mb-4">
                                                             <h5>You are Logged Out</h5>
-                                                            <p className="text-white-70">Thank you for using Jobcy</p> 
+                                                            <p className="text-white-70">Thank you for using CareerHub</p> 
                                                         </div>
                                                         <Link to="/signin" className="btn btn-white btn-hover w-100">Sign In</Link>
                                                         <div className="mt-3 text-center">

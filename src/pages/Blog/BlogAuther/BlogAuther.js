@@ -9,7 +9,7 @@ const BlogAuther = () => {
     return (
         <React.Fragment>
             <MetaTags>
-                <title>Blog Auther | Jobcy - Job Listing Template | Themesdesign</title>
+                <title>Blog Auther | CareerHub - Job Listing Template | Themesdesign</title>
             </MetaTags>
             <Section/>
             <section className="section">

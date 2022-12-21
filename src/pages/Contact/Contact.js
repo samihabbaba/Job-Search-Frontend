@@ -7,7 +7,7 @@ const Contact = () => {
     return (
         <React.Fragment>
             <MetaTags>
-                <title>Contact | Jobcy - Job Listing Template | Themesdesign</title>
+                <title>Contact | CareerHub - Job Listing Template | Themesdesign</title>
             </MetaTags>
             <Section/>
             <ContactContent/>

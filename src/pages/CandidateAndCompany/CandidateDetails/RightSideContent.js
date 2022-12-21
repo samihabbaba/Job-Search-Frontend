@@ -90,7 +90,7 @@ const RightSideContent = () => {
                                 <div className="circle flex-shrink-0 bg-soft-primary"> P </div>
                                 <div className="ms-4">
                                     <h6 className="fs-16 mb-1">Project Manager</h6>
-                                    <p className="mb-2 text-muted">Jobcy Technology Pvt.Ltd - (Pressent)</p>
+                                    <p className="mb-2 text-muted">CareerHub Technology Pvt.Ltd - (Pressent)</p>
                                     <p className="text-muted mb-0">There are many variations of passages of available, but the majority alteration in some form. As a highly skilled and successfull product development and design specialist with more than 4 Years of My experience.</p>
                                 </div>
                             </div>

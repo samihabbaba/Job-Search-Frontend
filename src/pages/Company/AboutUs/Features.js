@@ -59,7 +59,7 @@ const Features = () => {
                         <Col lg={7}>
                             <div className="section-title text-center mb-5">
                                 <h3 className="title mb-4">Key Features</h3>
-                                <p className="para-desc text-muted mx-auto">Start working with Jobcy that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                <p className="para-desc text-muted mx-auto">Start working with CareerHub that can provide everything you need to generate awareness, drive traffic, connect.</p>
                             </div>
                         </Col>
                     </Row>

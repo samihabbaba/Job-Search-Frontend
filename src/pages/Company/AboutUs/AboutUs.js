@@ -11,7 +11,7 @@ const AboutUs = () => {
   return (
     <React.Fragment>
       <MetaTags>
-      <title>About Us | Jobcy - Job Listing Template | Themesdesign</title>
+      <title>About Us | CareerHub - Job Listing Template | Themesdesign</title>
       </MetaTags>
       <Section />
       <About />

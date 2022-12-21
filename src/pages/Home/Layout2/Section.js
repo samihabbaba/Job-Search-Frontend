@@ -15,7 +15,7 @@ const section = () => {
                                 <Col lg={7}>
                                     <div className="mb-4 pb-3 me-lg-5">
                                         <h6 className="sub-title">We have 150,000+ live jobs</h6>
-                                        <h1 className="display-5 fw-semibold mb-3">Find your dream jobs with <span className="text-primary fw-bold">Jobcy</span></h1>
+                                        <h1 className="display-5 fw-semibold mb-3">Find your dream jobs with <span className="text-primary fw-bold">CareerHub</span></h1>
                                         <p className="lead text-muted mb-0">Find jobs, create trackable resumes and enrich your applications.Carefully crafted after analyzing the needs of different industries.</p>
                                     </div>
                                     <Form action="#">

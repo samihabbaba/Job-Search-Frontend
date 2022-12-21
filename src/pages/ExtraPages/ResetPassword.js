@@ -17,7 +17,7 @@ const ResetPassword = () => {
                 <div className="main-content">
                     <div className="page-content">
                     <MetaTags>
-                        <title>Reset Password | Jobcy - Job Listing Template | Themesdesign</title>
+                        <title>Reset Password | CareerHub - Job Listing Template | Themesdesign</title>
                     </MetaTags>   
                         <section className="bg-auth">
                                 <Container >
@@ -40,7 +40,7 @@ const ResetPassword = () => {
                                                         <CardBody className="auth-content p-5 h-100 text-white">
                                                             <div className="text-center mb-4">
                                                                 <h5>Reset Password</h5>
-                                                                <p className="text-white-50">Reset your password with Jobcy.</p>
+                                                                <p className="text-white-50">Reset your password with CareerHub.</p>
                                                             </div>
                                                             <Form className="auth-form text-white">
                                                                 <div className="alert alert-warning text-center mb-4" role="alert">  Enter your Email and instructions will be sent to you!  </div>

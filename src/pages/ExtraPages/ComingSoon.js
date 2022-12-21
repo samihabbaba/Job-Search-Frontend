@@ -43,7 +43,7 @@ const ComingSoon = () => {
                 <div className="main-content">
                         <div className="page-content">   
                         <MetaTags>
-                            <title>Coming Soon | Jobcy - Job Listing Template | Themesdesign</title>
+                            <title>Coming Soon | CareerHub - Job Listing Template | Themesdesign</title>
                         </MetaTags>                          
                             <section className="bg-coming-soon bg-auth">
                                 <Container >
@@ -54,7 +54,7 @@ const ComingSoon = () => {
                                                     <img src={rocketImage} alt="" height="150" className="mg-fluid" />                                                   
                                                 </div>
                                                 <h1>We're Launching Soon..!!</h1>
-                                                <p className="text-muted mb-4 pb-3">Start working with Jobcy that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                                <p className="text-muted mb-4 pb-3">Start working with CareerHub that can provide everything you need to generate awareness, drive traffic, connect.</p>
                                                 <div id="countdown" className="d-flex">
                                                     <Countdown date="2022/12/31" renderer={renderer} />
                                                 </div>

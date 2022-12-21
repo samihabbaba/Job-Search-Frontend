@@ -16,7 +16,7 @@ const SignUp = () => {
                 <div className="main-content">
                 <div className="page-content">     
                 <MetaTags>
-                <title>Sign Up | Jobcy - Job Listing Template | Themesdesign</title>
+                <title>Sign Up | CareerHub - Job Listing Template | Themesdesign</title>
                 </MetaTags>   
                     <section className="bg-auth">
                         <Container>
@@ -40,7 +40,7 @@ const SignUp = () => {
                                                     <div className="w-100">
                                                         <div className="text-center">
                                                             <h5>Let's Get Started</h5>
-                                                            <p className="text-white-70">Sign Up and get access to all the features of Jobcy</p>
+                                                            <p className="text-white-70">Sign Up and get access to all the features of CareerHub</p>
                                                         </div>
                                                         <Form action="/" className="auth-form">
                                                             <div className="mb-3">

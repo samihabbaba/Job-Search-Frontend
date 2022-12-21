@@ -13,7 +13,7 @@ const Error404 = () => {
             <div className="main-content">
                 <div className="page-content"> 
                 <MetaTags>
-                    <title>Error 404 | Jobcy - Job Listing Template | Themesdesign</title>
+                    <title>Error 404 | CareerHub - Job Listing Template | Themesdesign</title>
                 </MetaTags>        
                 <section className="bg-error bg-auth text-dark">
                     <Container>

@@ -8,7 +8,7 @@ const JobsCategories = () => {
     return (
         <React.Fragment>
             <MetaTags>
-            <title>Job Categories | Jobcy - Job Listing Template | Themesdesign</title>
+            <title>Job Categories | CareerHub - Job Listing Template | Themesdesign</title>
             </MetaTags>
             <Section/>
             <Categories/>

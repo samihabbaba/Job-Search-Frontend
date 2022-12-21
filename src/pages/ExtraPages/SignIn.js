@@ -17,7 +17,7 @@ const SignIn = () => {
     <div className="main-content">
     <div className="page-content">
     <MetaTags>
-      <title>Sign In | Jobcy - Job Listing Template | Themesdesign</title>
+      <title>Sign In | CareerHub - Job Listing Template | Themesdesign</title>
     </MetaTags>  
       <section className="bg-auth">
         <Container>
@@ -42,7 +42,7 @@ const SignIn = () => {
                         <div className="text-center mb-4">
                           <h5>Welcome Back !</h5>
                           <p className="text-white-70">
-                            Sign in to continue to Jobcy.
+                            Sign in to continue to CareerHub.
                           </p>
                         </div>
                         <Form action="/" className="auth-form">

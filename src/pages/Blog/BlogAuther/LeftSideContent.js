@@ -61,7 +61,7 @@ const LeftSideContent = () => {
                             <div className="text-center">
                                 <img src={UserImage3} alt="" className="avatar-lg img-thumbnail mb-4 rounded-circle" />
                                 <h6 className="fs-17">Gabriel Palmer</h6>
-                                <p className="text-muted">Start working with Jobcy that can provide you need drive everything to generate awareness, traffic, connect.</p>
+                                <p className="text-muted">Start working with CareerHub that can provide you need drive everything to generate awareness, traffic, connect.</p>
                             </div>
                         </div>
 
