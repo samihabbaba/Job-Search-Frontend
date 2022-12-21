@@ -15,8 +15,8 @@ import {
 import { Link, withRouter } from "react-router-dom";
 import classname from "classnames";
 
-import darkLogo from "../../assets/images/logo-dark.png";
-import lightLogo from "../../assets/images/logo-light.png";
+import darkLogo from "../../assets/images/careerhub.png";
+import lightLogo from "../../assets/images/careerhub.png";
 import userImage2 from "../../assets/images/user/img-02.jpg";
 import jobImage4 from "../../assets/images/featured-job/img-04.png";
 import userImage1 from "../../assets/images/user/img-01.jpg";
@@ -44,18 +44,18 @@ const NavBar = (props) => {
     //scroll navbar
     const [navClass, setnavClass] = useState(false);
 
-    useEffect(() => {
-        window.addEventListener("scroll", scrollNavigation, true);
-    });
+    // useEffect(() => {
+    //     window.addEventListener("scroll", scrollNavigation, true);
+    // });
 
-    function scrollNavigation() {
-        var scrollup = window.pageYOffset;
-        if (scrollup > 0) {
-            setnavClass("nav-sticky");
-        } else {
-            setnavClass("");
-        }
-    }
+    // function scrollNavigation() {
+    //     var scrollup = window.pageYOffset;
+    //     if (scrollup > 0) {
+    //         setnavClass("nav-sticky");
+    //     } else {
+    //         setnavClass("");
+    //     }
+    // }
 
     //menu activation
     useEffect(() => {
@@ -199,20 +199,7 @@ const NavBar = (props) => {
                                     </Row>
                                 </div>
                             </li>
-                            <NavItem className="dropdown dropdown-hover">
-                                <NavLink to="/#" id="productdropdown" role="button" data-bs-toggle="dropdown" onClick={() => setBlog(!blog)}>
-                                    Blog
-                                    <div className="arrow-down"></div>
-                                </NavLink>
-                                <ul className={classname("dropdown-menu dropdown-menu-center", { show: blog })} aria-labelledby="productdropdown">
-                                    <li><Link className="dropdown-item" to="/blog">Blog</Link></li>
-                                    <li><Link className="dropdown-item" to="/bloggrid">Blog Grid</Link></li>
-                                    <li><Link className="dropdown-item" to="/blogmodern">Blog Modern</Link></li>
-                                    <li><Link className="dropdown-item" to="/blogmasonary">Blog Masonry</Link></li>
-                                    <li><Link className="dropdown-item" to="/blogdetails">Blog details</Link></li>
-                                    <li><Link className="dropdown-item" to="/blogauther">Blog Author</Link></li>
-                                </ul>
-                            </NavItem>
+                         
                             <NavItem>
                                 <Link className="nav-link" to="/contact">Contact</Link>
                             </NavItem>
