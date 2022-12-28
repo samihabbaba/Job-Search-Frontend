@@ -27,10 +27,7 @@ const SignIn = () => {
                 <Row className="g-0">
                   <Col lg={6} className="text-center">
                     <CardBody className="p-4">
-                      <Link to="/">
-                        <img src={lightLogo} alt="" className="logo-light" />
-                        <img src={darkLogo} alt="" className="logo-dark" />
-                      </Link>
+                      
                       <div className="mt-5">
                         <img src={signInImage} alt="" className="img-fluid" />
                       </div>

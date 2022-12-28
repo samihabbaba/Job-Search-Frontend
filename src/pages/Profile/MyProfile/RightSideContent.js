@@ -52,7 +52,7 @@ const RightSideContent = () => {
                                 }}
                                 type="button"
                             >
-                                Settings
+                                Edit Profile
                             </NavLink>
                         </NavItem>
                     </Nav>
@@ -67,16 +67,12 @@ const RightSideContent = () => {
                                         the public and private sectors. Diplomatic, personable,
                                         and adept at managing sensitive situations. Highly
                                         organized, self-motivated, and proficient with
-                                        computers. Looking to boost students’ satisfactions
-                                        scores for <b>International University</b>. Bachelor's
-                                        degree in communications.
+                                        computers.
                                     </p>
                                     <p className="text-muted">
-                                        It describes the candidate's relevant experience,
-                                        skills, and achievements. The purpose of this career
-                                        summary is to explain your qualifications for the job in
-                                        3-5 sentences and convince the manager to read the whole
-                                        resume document.
+                                        3 years work experience as WEB Developer
+                                        <br></br>
+                                        2 years work experience as Software Engineer
                                     </p>
                                 </div>
                                 <div className="candidate-education-details mt-4">
@@ -87,10 +83,10 @@ const RightSideContent = () => {
                                         </div>
                                         <div className="ms-4">
                                             <h6 className="fs-16 mb-1">
-                                                BCA - Bachelor of Computer Applications
+                                                BCA - Bachelor of Software Engineering
                                             </h6>
                                             <p className="mb-2 text-muted">
-                                                International University - (2004 - 2010)
+                                            Eastern Mediterranean University - (2010 - 2014)
                                             </p>
                                             <p className="text-muted">
                                                 There are many variations of passages of available,
@@ -110,13 +106,13 @@ const RightSideContent = () => {
                                                 MCA - Master of Computer Application
                                             </h6>
                                             <p className="mb-2 text-muted">
-                                                International University - (2010 - 2012)
+                                            Eastern Mediterranean University  - (2014 - 2016)
                                             </p>
                                             <p className="text-muted">
                                                 There are many variations of passages of available,
                                                 but the majority alteration in some form. As a
                                                 highly skilled and successfull product development
-                                                and design specialist with more than 4 Years of My
+                                                and design specialist with more than 2 Years of My
                                                 experience.
                                             </p>
                                         </div>
@@ -128,7 +124,7 @@ const RightSideContent = () => {
                                         <div className="ms-4">
                                             <h6 className="fs-16 mb-1">Design Communication Visual</h6>
                                             <p className="text-muted mb-2">
-                                                International University - (2012-2015)
+                                            Eastern Mediterranean University - (2016-2017)
                                             </p>
                                             <p className="text-muted">
                                                 There are many variations of passages of available,
@@ -185,7 +181,7 @@ const RightSideContent = () => {
                                         <h5 className="fs-17 fw-semibold mb-3 mb-0">My Account</h5>
                                         <div className="text-center">
                                             <div className="mb-4 profile-user">
-                                                <img src={userImage2} className="rounded-circle img-thumbnail profile-img" id="profile-img" alt="" />
+                                                <img className="rounded-circle img-thumbnail profile-img" id="profile-img" alt="" />
                                                 <div className="p-0 rounded-circle profile-photo-edit">
                                                     <Input id="profile-img-file-input" type="file" className="profile-img-file-input" />
                                                     <Label htmlFor="profile-img-file-input" className="profile-photo-edit avatar-xs">
@@ -209,17 +205,9 @@ const RightSideContent = () => {
                                             </Col>
 
                                             <Col lg={6}>
-                                                <div className="mb-3">
-                                                    <label htmlFor="choices-single-categories" className="form-label">Account Type</label>
-                                                    <select className="form-select" data-trigger
-                                                        name="choices-single-categories"
-                                                        id="choices-single-categories"
-                                                        aria-label="Default select example">
-                                                        <option value="4">Accounting</option>
-                                                        <option value="1">IT & Software</option>
-                                                        <option value="3">Marketing</option>
-                                                        <option value="5">Banking</option>
-                                                    </select>
+                                            <div className="mb-3">
+                                                    <Label htmlFor="lastName" className="form-label">Job Title</Label>
+                                                    <Input type="text" className="form-control" id="jobTitle" />
                                                 </div>
                                             </Col>
                                             <Col lg={6}>
@@ -257,7 +245,7 @@ const RightSideContent = () => {
                                                         name="choices-single-location" id="choices-single-location"
                                                         aria-label="Default select exam
                                                                             ple">
-                                                        <option value="ME">Montenegro</option>
+                                                        <option value="ME">Cyprus</option>
                                                         <option value="MS">Montserrat</option>
                                                         <option value="MA">Morocco</option>
                                                         <option value="MZ">Mozambique</option>

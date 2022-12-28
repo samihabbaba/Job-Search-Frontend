@@ -31,7 +31,7 @@ const JobList = () => {
           <Row className="justify-content-center">
             <Col lg={6}>
               <div className="section-title text-center mb-4 pb-2">
-                <h4 className="title">New & Random Jobs</h4>
+                <h4 className="title">New Jobs</h4>
                 <p className="text-muted mb-1">
                   Post a job to tell us about your project. We'll quickly match
                   you with the right freelancers.
@@ -58,33 +58,6 @@ const JobList = () => {
                     role="tab"
                   >
                     Recent Jobs
-                  </NavLink>
-                </NavItem>
-
-                <NavItem role="presentation">
-                  <NavLink
-                    className={classnames({ active: activeTab === "2" })}
-                    onClick={() => {
-                      tabChange("2");
-                    }}
-                    id="featured-jobs-tab"
-                    type="button"
-                    role="tab"
-                  >
-                    Featured Jobs
-                  </NavLink>
-                </NavItem>
-                <NavItem role="presentation">
-                  <NavLink
-                    className={classnames({ active: activeTab === "3" })}
-                    onClick={() => {
-                      tabChange("3");
-                    }}
-                    id="freelancer-tab"
-                    type="button"
-                    role="tab"
-                  >
-                    Freelancer
                   </NavLink>
                 </NavItem>
                 <NavItem role="presentation">

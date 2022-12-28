@@ -13,9 +13,7 @@ const LeftSideContent = () => {
                 <Card className="profile-sidebar me-lg-4">
                     <CardBody className="p-4">
                         <div className="text-center pb-4 border-bottom">
-                            <img src={profileImage} alt=""
-                                className="avatar-lg img-thumbnail rounded-circle mb-4" />
-                            <h5 className="mb-0">Jennifer Dickens</h5>
+                            <h5 className="mb-0">Salih Topel Kaymakmamoğlu</h5>
                             <p className="text-muted">Developer</p>
                             <ul className="list-inline d-flex justify-content-center align-items-center ">
                                 <li className="list-inline-item text-warning fs-19">
@@ -55,7 +53,7 @@ const LeftSideContent = () => {
                                             <i className="uil uil-file"></i>
                                         </div>
                                         <div className="ms-3">
-                                            <h6 className="fs-16 mb-0">Resume.pdf</h6>
+                                            <h6 className="fs-16 mb-0">CV.pdf</h6>
                                             <p className="text-muted mb-0">1.25 MB</p>
                                         </div>
                                         <div className="ms-auto">
@@ -89,7 +87,7 @@ const LeftSideContent = () => {
                                             <label>Email</label>
                                             <div>
                                                 <p className="text-muted text-break mb-0">
-                                                    jennifer@gmail.com
+                                                    kaymakamoglusalih@gmail.com
                                                 </p>
                                             </div>
                                         </div>
@@ -98,7 +96,7 @@ const LeftSideContent = () => {
                                         <div className="d-flex">
                                             <label>Phone Number</label>
                                             <div>
-                                                <p className="text-muted mb-0">+2 345 678 0000</p>
+                                                <p className="text-muted mb-0">+90 7126371581</p>
                                             </div>
                                         </div>
                                     </li>
@@ -106,7 +104,7 @@ const LeftSideContent = () => {
                                         <div className="d-flex">
                                             <label>Location</label>
                                             <div>
-                                                <p className="text-muted mb-0">New Caledonia</p>
+                                                <p className="text-muted mb-0">Famagusta</p>
                                             </div>
                                         </div>
                                     </li>

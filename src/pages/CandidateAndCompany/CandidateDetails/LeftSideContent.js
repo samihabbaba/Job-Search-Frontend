@@ -131,7 +131,7 @@ const LeftSideContent = () => {
                                     </div>
                                     <div className="ms-3">
                                         <h6 className="fs-14 mb-1">Address</h6>
-                                        <p className="text-muted mb-0">Dodge City, Louisiana</p>
+                                        <p className="text-muted mb-0">Famagusta,Cyprus</p>
                                     </div>
                                 </div>
                             </li>
